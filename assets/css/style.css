@@ -1,3 +1,7 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .sim{
     display: flex;
     flex-direction: row;
@@ -6,40 +10,29 @@
 }
 
 .sim h1{
-    text-align: center;
-    font-size: 4em;
+    text-align:justify;
+    font-size: 3em;
+    color: aliceblue;
+    margin-left: 30px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu{
     display: flex;
-    background-color: black;
     flex-direction: row-reverse;
-    list-style-type:none;
+   align-items: center;
+    gap: 30px;
 }
 
-.vendaSapato{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
 }
-
-.cardSapato{
+.section{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: yellow;
+    height: 200px;
     align-items: center;
-    border: 1px solid black;
-    box-shadow: 1px 1px 5px #ccc;
-    background-color: #ededed;
-    width: 200px;
-}
-
-.cardSapato img{
-    width: 150px;
-    margin: 10px;
-}
-
-.cardSapato p{
-    text-align: center;
-    margin-bottom: 10px;
+    justify-content:center;
 }
