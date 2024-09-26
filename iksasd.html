@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+
+    <!-- Links -->
+
+    <!-- reset sempre vem primeiro -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+
+    <!-- o nosso estilo sempre vai por ultimo -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+        .vendaSapato {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+        }
+
+        .cardSapato {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            box-shadow: 1px 1px 5px #ccc;
+            background-color: #ededed;
+            width: 200px;
+        }
+
+        .cardSapato img {
+            width: 150px;
+            margin: 10px;
+        }
+
+        .cardSapato p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .faixaCinza {
+            width: 100%;
+            height: 50px;
+            background-color: #ededed;
+        }
+
+        .bold {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: -10px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="vendaSapato">
+        <div class="cardSapato">
+            <div>
+                <img src="assets/img/sapato1.png" alt="primeiro sapato">
+            </div>
+            <div>
+                <p class="bold">Sapato maneiro</p>
+                <br>
+                <p>R$ 123,99</p>
+            </div>
+        </div>
+        <div class="cardSapato">
+            <div>
+                <img src="assets/img/sapato2.png" alt="segundo sapato">
+            </div>
+            <div>
+                <p class="bold">Sapato mais maneiro</p>
+                <br>
+                <p>R$ 124,99</p>
+            </div>
+        </div>
+        <div class="cardSapato">
+            <div>
+                <img src="assets/img/sapato3.png" alt="terceiro sapato">
+            </div>
+            <div>
+                <p class="bold">Sapato muito mais maneiro</p>
+                <br>
+                <p>R$ 125,99</p>
+            </div>
+        </div>
+
+    </main>
+    <div class="faixaCinza">
+
+    </div>
+</body>
+
+</html>
