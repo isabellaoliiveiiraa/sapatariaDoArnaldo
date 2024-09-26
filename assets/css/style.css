@@ -17,3 +17,29 @@
     list-style-type:none;
 }
 
+.vendaSapato{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.cardSapato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: #ededed;
+    width: 200px;
+}
+
+.cardSapato img{
+    width: 150px;
+    margin: 10px;
+}
+
+.cardSapato p{
+    text-align: center;
+    margin-bottom: 10px;
+}
