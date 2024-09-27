@@ -7,6 +7,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background-color: #202020;
+    padding: 20px 0;
 }
 
 .sim h1{
@@ -23,6 +24,7 @@ body{
     flex-direction: row-reverse;
    align-items: center;
     gap: 30px;
+    margin-right: 30px;
 }
 
 .menu a{
@@ -36,7 +38,8 @@ body{
     align-items: center;
     justify-content:center;
     flex-direction: column;
-    border: 1px solid black
+    border: 1px solid black;
+    gap: 30px;
 }
 
 .section h2{
@@ -54,7 +57,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #bcbcbc;
     box-shadow: 1px 1px 5px #ccc;
     background-color: #ededed;
     width: 200px;
@@ -78,6 +81,5 @@ body{
 
 .bold {
     font-weight: bold;
-    font-size: 1.2em;
     margin-bottom: -10px !important;
 }
